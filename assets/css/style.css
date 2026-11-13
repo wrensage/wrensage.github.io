@@ -121,3 +121,59 @@ h1 em,h2 em { color: var(--shadow); font-weight: 500; }
 .journal-content h2 a:hover,
 .journal-content h2 a:focus-visible { text-decoration: underline; text-underline-offset: .14em; }
 .post-back { margin: 0 0 2.2rem; }
+
+.work-photo.photo-ear { background: var(--ear); }
+.work-photo.photo-lavender { background: var(--lavender); }
+.work-photo.photo-pink { background: var(--pink); }
+.pattern-cover.photo-lime { background: var(--lime); }
+.pattern-cover.photo-lavender { background: var(--lavender); }
+.pattern-cover.photo-ear { background: var(--ear); }
+.pattern-list { display: flex; flex-direction: column; }
+.pattern-list .pattern-feature { padding-bottom: 4.5rem; margin-bottom: 4.5rem; border-bottom: 1px solid var(--line); }
+.pattern-list .pattern-feature:last-child { padding-bottom: 0; margin-bottom: 0; border-bottom: 0; }
+.fill-in { background: rgba(239, 101, 156, .22); padding: 0 .2em; border-radius: 2px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+
+.cv-kana { font-family: var(--sans); font-size: .34em; font-weight: 600; letter-spacing: 0; margin-left: .4rem; color: var(--shadow); white-space: nowrap; }
+.cv-hero h1 { margin-bottom: .7rem; }
+.cv-hero .cv-role,
+.cv-hero .cv-contact,
+.cv-hero .cv-print-hint { max-width: 40rem; line-height: 1.75; }
+.cv-print-hint { margin-top: 1.2rem; color: var(--fur); font-size: .82rem; }
+.cv-sheet { max-width: 920px; margin: 0 auto; padding: .5rem 5.5% 5.5rem; }
+.cv-block { border-top: 1px solid var(--line); padding: 1.7rem 0 1.5rem; }
+.cv-block h2 { font-size: clamp(1.7rem, 3vw, 2.15rem); margin: 0 0 .85rem; }
+.cv-block h2 span { display: block; margin-top: .28rem; font-family: var(--sans); font-size: .72rem; font-weight: 700; letter-spacing: .12em; color: var(--shadow); }
+.cv-pair p,
+.cv-list p { line-height: 1.85; margin: 0; }
+.cv-pair p + p,
+.cv-list p + p { margin-top: .45rem; }
+.cv-list { list-style: none; margin: 0; padding: 0; }
+.cv-list li { padding: .85rem 0; border-bottom: 1px solid var(--line); }
+.cv-list li:first-child { padding-top: 0; }
+.cv-list li:last-child { border-bottom: 0; padding-bottom: 0; }
+.cv-patterns a { font-weight: 700; }
+.cv-meta { font-size: .92rem; }
+.cv-empty { margin: 0; color: var(--fur); line-height: 1.7; }
+
+@media (max-width: 560px) {
+  .cv-kana { display: block; margin: .35rem 0 0; font-size: .4em; white-space: normal; }
+  .cv-sheet { padding-bottom: 3.5rem; }
+}
+@media print {
+  body.cv-page { background: #fff; color: #000; }
+  body.cv-page .site-header,
+  body.cv-page .site-footer,
+  body.cv-page .menu-toggle,
+  body.cv-page .skip-link,
+  body.cv-page .cv-print-hint { display: none !important; }
+  body.cv-page .page-hero { background: #fff; padding: 0 0 1rem; }
+  body.cv-page .cv-sheet { max-width: none; padding: 0; }
+  body.cv-page h1 { font-size: 2.4rem; }
+  body.cv-page a { color: #000; text-decoration: underline; }
+  body.cv-page a[href^="http"]::after { content: " (" attr(href) ")"; font-weight: 400; font-size: .82em; word-break: break-all; }
+  body.cv-page .cv-block,
+  body.cv-page .cv-list li { break-inside: avoid; }
+  body.cv-page h1,
+  body.cv-page h2 { break-after: avoid; }
+  .fill-in { background: transparent !important; border-bottom: 1px dashed #222; padding: 0 .12em; }
+}
