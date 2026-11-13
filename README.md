@@ -47,7 +47,8 @@ Write that description in English. Where the page also has a Japanese version, a
 ## Update your shop and pattern links
 
 The Etsy links currently point to `https://www.etsy.com/shop/oddlyknotted`.
-The Ravelry links are placeholders pointing to Ravelry's homepage. Replace them with the exact Solly pattern URL once you have it.
+The Solly pattern link is set to `https://www.ravelry.com/patterns/library/solly-the-sun`.
+The general designer page link is set to `https://www.ravelry.com/designers/wren-sage`.
 
 ## Color palette
 
