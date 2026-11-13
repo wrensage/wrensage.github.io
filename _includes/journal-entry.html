@@ -1,0 +1,14 @@
+{%- assign entry = include.entry -%}
+{%- assign months = "JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC" | split: "|" -%}
+{%- assign month_index = entry.date | date: "%m" | plus: 0 | minus: 1 -%}
+{%- assign parts = entry.content | split: "<!-- japanese -->" -%}
+{%- assign japanese = parts[1] | strip -%}
+<article class="journal-entry" id="{{ entry.slug }}">
+  <div class="journal-date"><span>{{ entry.date | date: "%d" | plus: 0 }}</span><small>{{ months[month_index] }}<br>{{ entry.date | date: "%Y" }}</small></div>
+  <div class="journal-content"><p class="eyebrow">{{ entry.eyebrow | escape }}</p><h2>{% if include.link_title %}<a href="{{ entry.url }}">{{ entry.title | escape }}</a>{% else %}{{ entry.title | escape }}{% endif %}</h2>
+{{ parts[0] }}
+{%- if japanese != "" -%}
+<details class="japanese"><summary>日本語で読む · Read in Japanese</summary><div lang="ja">{{ japanese }}</div></details>
+{%- endif -%}
+</div>
+</article>

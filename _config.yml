@@ -1,0 +1,48 @@
+# GitHub Pages turns on its Primer theme unless this is null.
+# That theme publishes a stylesheet at assets/css/style.css, the same
+# address these pages use. With the theme left on, visitors get Primer's
+# white background and blue links instead of this design.
+# Leave theme set to null, and leave assets/css/style.css where it is.
+theme: null
+
+title: Wren Sage
+url: https://wrensage.github.io
+timezone: Etc/UTC
+future: true
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  smart_quotes: "apos,apos,quot,quot"
+  gfm_quirks: paragraph_end
+
+# Each file in _posts becomes /journal/2026/11/12/title/
+permalink: /journal/:year/:month/:day/:title/
+excerpt_separator: "<!-- japanese -->"
+
+exclude:
+  - README.md
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+
+defaults:
+  # Keep ordinary pages out of Primer's default layout if a theme is ever set.
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: null
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
