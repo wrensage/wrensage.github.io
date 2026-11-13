@@ -36,6 +36,15 @@ Photographs belong in `assets/images/`. These three are already on the site:
 
 To replace one, upload a new photo **with the same file name**, including `.jpg`. You do not need to edit the page. Before you upload, resize the photo so the long side is about 1600 pixels and save it as a JPG. Large phone photos make the site slow.
 
+These pattern photos are already named on the Designs and Patterns pages. The files are not in the folder yet. Until you add one, that spot shows a labeled color tile instead of a broken picture. Upload a JPG with the long side about 1600 pixels, and keep the file name exactly as written:
+
+- `alby.jpg` — Alby the Acorn on the Designs page
+- `alby-cover.jpg` — Alby the Acorn on the Patterns page
+- `chubby-sprite.jpg` — Chubby Sprite on the Designs page
+- `chubby-sprite-cover.jpg` — Chubby Sprite on the Patterns page
+- `bibble.jpg` — Bibble the Blueberry on the Designs page
+- `bibble-cover.jpg` — Bibble the Blueberry on the Patterns page
+
 To show a photo in a new place, put the file in `assets/images/`, then add it on the page:
 
 ```html
@@ -44,10 +53,34 @@ To show a photo in a new place, put the file in `assets/images/`, then add it on
 
 Write that description in English. Where the page also has a Japanese version, add the Japanese description in the same `alt` text, after the English sentence.
 
+## Fill in the CV
+
+The CV is [cv.html](cv.html), linked as **CV** in the menu on every page. Pink highlighted text in square brackets is still blank. Replace the whole bracket, including the words inside it, with your own detail.
+
+On the CV:
+
+- `[BUSINESS EMAIL]` — the email you want on the visa copy
+- `[MONTH YEAR]` — when you started crocheting (English and Japanese lines)
+- `[MONTH]` — the month in 2025 when oddly knotted opened on Etsy
+- `[月]` — that same month, written in Japanese (for example `6月`)
+- `[DATE]` — the date you want listed for Alby the Acorn, Chubby Sprite, and Bibble the Blueberry, and the “as of” date for the Etsy sales line. Each pattern has the bracket on both the English and Japanese lines.
+- `[LEVEL]` — your Japanese level, on both language lines
+
+Ravelry currently lists these first-published months, if you want to copy them into `[DATE]`: Alby the Acorn, July 2025; Chubby Sprite, June 2025; Bibble the Blueberry, June 2025. The CV leaves the bracket so you can confirm the wording yourself.
+
+Exhibitions, press, collaborations, and teaching say “No entries yet. まだ記載はありません。” Replace that sentence with a short list when you have something to add. One line per entry is enough.
+
+`[PLACEHOLDER]` on the Designs and Patterns pages marks a detail that was not settled from the public pattern page: whether finished pieces of Alby, Chubby Sprite, and Bibble are for sale, and the current price of the Alby pattern. Alby’s Ravelry page says both “available for free” and that it is now an updated $2 pattern, so the price was left blank on purpose.
+
+To save a PDF, open the CV, choose Print, and select Save as PDF. The menu and footer stay off the printed page. Each Ravelry link prints with its address. The pink highlight prints as a dotted underline, so read the PDF once before you file it and make sure no brackets are left.
+
 ## Update your shop and pattern links
 
 The Etsy links currently point to `https://www.etsy.com/shop/oddlyknotted`.
 The Solly pattern link is set to `https://www.ravelry.com/patterns/library/solly-the-sun`.
+Alby the Acorn is `https://www.ravelry.com/patterns/library/alby-the-acorn`.
+Chubby Sprite is `https://www.ravelry.com/patterns/library/chubby-sprite`.
+Bibble the Blueberry is `https://www.ravelry.com/patterns/library/bibble-the-blueberry`.
 The general designer page link is set to `https://www.ravelry.com/designers/wren-sage`.
 
 ## Color palette

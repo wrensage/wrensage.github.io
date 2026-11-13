@@ -9,6 +9,7 @@ permalink: /sitemap.xml
   <url><loc>https://wrensage.github.io/patterns.html</loc></url>
   <url><loc>https://wrensage.github.io/journal.html</loc></url>
   <url><loc>https://wrensage.github.io/about.html</loc></url>
+  <url><loc>https://wrensage.github.io/cv.html</loc></url>
   {% for post in site.posts %}
   <url><loc>https://wrensage.github.io{{ post.url }}</loc></url>
   {% endfor %}
