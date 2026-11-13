@@ -1,3 +1,7 @@
+---
+layout: null
+permalink: /journal.html
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,16 +10,15 @@
   <title>Journal — Wren Sage</title><link rel="stylesheet" href="assets/css/style.css"><link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
 </head>
 <body>
-<header class="site-header"><a class="wordmark" href="index.html"><span class="wordmark-flower">✿</span><span>WREN SAGE</span><small>TEXTILE ARTIST · PATTERN DESIGNER</small></a><button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" class="site-nav"><a href="designs.html">Designs</a><a href="patterns.html">Patterns</a><a class="active" href="journal.html">Journal</a><a href="about.html">About</a><a class="nav-shop" href="https://www.etsy.com/shop/OddlyKnotted" target="_blank" rel="noopener">Shop Oddly Knotted ↗</a></nav></header>
+<header class="site-header"><a class="wordmark" href="index.html"><span class="wordmark-flower">✿</span><span>WREN SAGE</span><small>TEXTILE ARTIST · PATTERN DESIGNER</small></a><button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" class="site-nav"><a href="designs.html">Designs</a><a href="patterns.html">Patterns</a><a class="active" href="journal.html">Journal</a><a href="about.html">About</a><a class="nav-shop" href="https://www.etsy.com/shop/oddlyknotted" target="_blank" rel="noopener">Shop oddly knotted ↗</a></nav></header>
 <main id="main">
   <section class="page-hero page-hero-lavender"><p class="eyebrow">Notes from the worktable</p><h1>The making <em>of things.</em></h1><p>Design notes, experiments, new releases, lessons learned, and little glimpses of a creative practice in progress.</p></section>
   <section class="section journal-list">
-    <article class="journal-entry">
-      <div class="journal-date"><span>12</span><small>NOV<br>2026</small></div>
-      <div class="journal-content"><p class="eyebrow">Pattern release · Original design</p><h2>Solly the Sun is published!</h2><p>Solly the Sun is my first professionally formatted crochet pattern, now available to makers through Ravelry. Solly began as an original amigurumi design, and turning the construction into a pattern has been a new and exciting part of my work.</p><p>This release marks a new step in my practice as a crochet designer. I'm looking forward to developing more original patterns and sharing the process along the way.</p><details class="japanese"><summary>日本語で読む · Read in Japanese</summary><div lang="ja"><p>太陽のあみぐるみ「ソリー」の編み図を公開しました。これは、私が初めてプロ向けの形式で制作したかぎ針編みの編み図です。Ravelry でご覧いただけます。</p><p>これからもオリジナル作品と編み図を作り、その制作過程を紹介していきたいと思います。</p></div></details></div>
-    </article>
+    {% for post in site.posts %}
+    {% include journal-entry.html entry=post link_title=true %}
+    {% endfor %}
     <div class="journal-footer-note"><span>✿</span><p>This journal will grow alongside the work. New designs, process notes, and translations will be added as they're ready.</p></div>
   </section>
 </main>
-<footer class="site-footer"><a class="footer-brand" href="index.html">WREN SAGE <span>✿</span></a><p>Original textile work, made one stitch at a time.</p><div class="footer-links"><a href="about.html">About</a><a href="designs.html">Designs</a><a href="https://www.etsy.com/shop/OddlyKnotted" target="_blank" rel="noopener">Oddly Knotted ↗</a></div><small>© <span data-year></span> Wren Sage. All rights reserved.</small></footer><script src="assets/js/site.js"></script>
+<footer class="site-footer"><a class="footer-brand" href="index.html">WREN SAGE <span>✿</span></a><p>Original textile work, made one stitch at a time.</p><div class="footer-links"><a href="about.html">About</a><a href="designs.html">Designs</a><a href="https://www.etsy.com/shop/oddlyknotted" target="_blank" rel="noopener">oddly knotted ↗</a></div><small>© <span data-year></span> Wren Sage. All rights reserved.</small></footer><script src="assets/js/site.js"></script>
 </body></html>
