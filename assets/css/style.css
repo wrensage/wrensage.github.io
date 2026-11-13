@@ -177,3 +177,7 @@ h1 em,h2 em { color: var(--shadow); font-weight: 500; }
   body.cv-page h2 { break-after: avoid; }
   .fill-in { background: transparent !important; border-bottom: 1px dashed #222; padding: 0 .12em; }
 }
+
+.about-portrait { background: var(--rat-poison-lavender, var(--lavender)); padding: 1.2rem; place-items: stretch; box-shadow: 12px 14px 0 var(--rat-poison-lime, var(--lime)); }
+.about-portrait img { width: 100%; height: 100%; aspect-ratio: 1/1; object-fit: cover; object-position: center 30%; display: block; }
+.about-portrait .about-ribbon { left: 50%; translate: -50% 0; white-space: nowrap; }
