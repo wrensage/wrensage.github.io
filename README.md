@@ -84,3 +84,7 @@ The general designer page link is set to `https://www.ravelry.com/designers/wren
 - Keep `_config.yml` in the repository. It turns off GitHub's default theme so visitors see the cream background and these colors, not GitHub's white page with blue links. Do not delete that file, and do not move `assets/css/style.css`.
 - The Japanese copy is intentionally simple. Please review and refine it as your Japanese develops before treating it as a polished translation.
 - The site is designed to be an artist portfolio and public record of work, not a promise of immigration eligibility.
+
+## Copyright
+
+© 2026 Wren Sage. All rights reserved. You may adapt the code for your own site if you substantially change it, but please don't copy it word for word. All photos, designs, patterns and writing are fully protected. See [LICENSE](LICENSE) for details.
