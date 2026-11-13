@@ -49,12 +49,9 @@ Write that description in English. Where the page also has a Japanese version, a
 
 ## Fill in the CV
 
-The CV is [cv.html](cv.html), linked as **CV** in the menu on every page. Pink highlighted text in square brackets is still blank. Replace the whole bracket, including the words inside it, with your own detail.
+The CV is [cv.html](cv.html), linked as **CV** in the menu on every page.
 
-Still blank:
-
-- `[DATE]` on the sales line, in English and Japanese. This is the “as of” date for the 70 Etsy sales and 17 reviews.
-- `[PLACEHOLDER]` on the Designs page, in English and Japanese, for whether finished pieces of Alby the Acorn, Chubby Sprite, and Bibble the Blueberry are for sale.
+The sales line is dated November 13, 2026（2026年11月13日）. On the Designs page, finished pieces of Alby the Acorn and Bibble the Blueberry link to oddly knotted on Etsy. Chubby Sprite is the pattern only.
 
 Exhibitions, press, collaborations, and teaching say “No entries yet. まだ記載はありません。” Replace that sentence with a short list when you have something to add. One line per entry is enough.
 
