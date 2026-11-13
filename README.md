@@ -36,6 +36,10 @@ Photographs belong in `assets/images/`. These are already on the site. The long 
 - `alby.jpg` — Alby the Acorn on the Designs page. `alby-cover.jpg` is the same photo, kept for later.
 - `chubby-sprite.jpg` — Chubby Sprite on the Designs page. `chubby-sprite-cover.jpg` is the same photo, kept for later.
 - `bibble.jpg` and `bibble-cover.jpg` — Bibble the Blueberry on Designs and Patterns (the same photo)
+- `button.jpg` and `button-cover.jpg` — Button the Snowman on the Designs page (the same photo)
+- `omi.jpg` and `omi-cover.jpg` — Omi the Orange on the Designs page (the same photo)
+- `custard.jpg` and `custard-cover.jpg` — Custard the Duckling on the Designs page (the same photo)
+- `strawberry-keychain.jpg` and `strawberry-keychain-cover.jpg` — the strawberry keychain on the Designs page (the same photo)
 
 To replace one, upload a new photo **with the same file name**, including `.jpg`. You do not need to edit the page. Before you upload, resize the photo so the long side is about 1600 pixels and save it as a JPG. Large phone photos make the site slow.
 
@@ -51,7 +55,7 @@ Write that description in English. Where the page also has a Japanese version, a
 
 The CV is [cv.html](cv.html), linked as **CV** in the menu on every page.
 
-The sales line is dated November 13, 2026（2026年11月13日）. On the Designs page, finished pieces of Solly the Sun, Alby the Acorn and Bibble the Blueberry link to oddly knotted on Etsy. Alby the Acorn, Chubby Sprite and Bibble the Blueberry are shown there as designs only. Their patterns are not listed while they are being updated.
+The sales line is dated November 13, 2026（2026年11月13日）. On the Designs page, finished pieces of Solly the Sun, Button the Snowman, Alby the Acorn, Bibble the Blueberry, Omi the Orange, Custard the Duckling, and the strawberry keychain link to their oddly knotted listings on Etsy. Prices shown there are as of November 2026. Alby the Acorn, Chubby Sprite and Bibble the Blueberry are shown as designs only; their patterns are not listed while they are being updated. Button, Omi, Custard, and the strawberry keychain also have no pattern links yet.
 
 Exhibitions, press, collaborations, and teaching say “No entries yet. まだ記載はありません。” Replace that sentence with a short list when you have something to add. One line per entry is enough.
 
@@ -59,10 +63,17 @@ To save a PDF, open the CV, choose Print, and select Save as PDF. The menu and f
 
 ## Update your shop and pattern links
 
-The Etsy links currently point to `https://www.etsy.com/shop/oddlyknotted`.
+The shop homepage is `https://www.etsy.com/shop/oddlyknotted`.
+Finished-piece listings on the Designs page are:
+- Solly the Sun: `https://oddlyknotted.etsy.com/listing/4330195729`
+- Button the Snowman: `https://www.etsy.com/listing/4429361891/button-the-snowman-plushie-crochet-decor`
+- Alby the Acorn: `https://www.etsy.com/listing/4326657813/alby-the-acorn-crochet-decor-gift`
+- Bibble the Blueberry: `https://www.etsy.com/listing/4322239473/bibble-the-blueberry-handmade-plushie`
+- Omi the Orange: `https://www.etsy.com/listing/4332150054/omi-the-orange-crochet-fruit-gift`
+- Custard the Duckling: `https://www.etsy.com/listing/4441750060/custard-the-duckling-crochet-plush`
+- Strawberry keychain (add-on only): `https://www.etsy.com/listing/4429489586/strawberry-keychain-add-on-only-crochet`
 The Solly pattern link is set to `https://www.ravelry.com/patterns/library/solly-the-sun`.
-Solly's finished small size on Etsy is `https://oddlyknotted.etsy.com/listing/4330195729`.
-Alby the Acorn, Chubby Sprite and Bibble the Blueberry do not have pattern links on the site yet.
+Alby the Acorn, Chubby Sprite, Bibble the Blueberry, Button the Snowman, Omi the Orange, Custard the Duckling, and the strawberry keychain do not have pattern links on the site yet.
 The general designer page link is set to `https://www.ravelry.com/designers/wren-sage`.
 
 ## Color palette
