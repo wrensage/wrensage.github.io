@@ -33,8 +33,8 @@ Photographs belong in `assets/images/`. These are already on the site. The long 
 - `solly-feature.jpg` — homepage (Solly sitting, slight angle)
 - `solly.jpg` — Designs page (Solly sitting, straight on)
 - `solly-cover.jpg` — Patterns page (large Solly next to small Solly)
-- `alby.jpg` and `alby-cover.jpg` — Alby the Acorn on Designs and Patterns (the same photo)
-- `chubby-sprite.jpg` and `chubby-sprite-cover.jpg` — Chubby Sprite on Designs and Patterns (the same photo)
+- `alby.jpg` — Alby the Acorn on the Designs page. `alby-cover.jpg` is the same photo, kept for later.
+- `chubby-sprite.jpg` — Chubby Sprite on the Designs page. `chubby-sprite-cover.jpg` is the same photo, kept for later.
 - `bibble.jpg` and `bibble-cover.jpg` — Bibble the Blueberry on Designs and Patterns (the same photo)
 
 To replace one, upload a new photo **with the same file name**, including `.jpg`. You do not need to edit the page. Before you upload, resize the photo so the long side is about 1600 pixels and save it as a JPG. Large phone photos make the site slow.
@@ -51,7 +51,7 @@ Write that description in English. Where the page also has a Japanese version, a
 
 The CV is [cv.html](cv.html), linked as **CV** in the menu on every page.
 
-The sales line is dated November 13, 2026（2026年11月13日）. On the Designs page, finished pieces of Alby the Acorn and Bibble the Blueberry link to oddly knotted on Etsy. Chubby Sprite is the pattern only.
+The sales line is dated November 13, 2026（2026年11月13日）. On the Designs page, finished pieces of Alby the Acorn and Bibble the Blueberry link to oddly knotted on Etsy. Alby the Acorn and Chubby Sprite are shown there as designs only. Their patterns are not listed while they are being updated.
 
 Exhibitions, press, collaborations, and teaching say “No entries yet. まだ記載はありません。” Replace that sentence with a short list when you have something to add. One line per entry is enough.
 
@@ -61,9 +61,8 @@ To save a PDF, open the CV, choose Print, and select Save as PDF. The menu and f
 
 The Etsy links currently point to `https://www.etsy.com/shop/oddlyknotted`.
 The Solly pattern link is set to `https://www.ravelry.com/patterns/library/solly-the-sun`.
-Alby the Acorn is `https://www.ravelry.com/patterns/library/alby-the-acorn`.
-Chubby Sprite is `https://www.ravelry.com/patterns/library/chubby-sprite`.
 Bibble the Blueberry is `https://www.ravelry.com/patterns/library/bibble-the-blueberry`.
+Alby the Acorn and Chubby Sprite do not have pattern links on the site yet.
 The general designer page link is set to `https://www.ravelry.com/designers/wren-sage`.
 
 ## Color palette
