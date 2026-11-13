@@ -51,7 +51,7 @@ Write that description in English. Where the page also has a Japanese version, a
 
 The CV is [cv.html](cv.html), linked as **CV** in the menu on every page.
 
-The sales line is dated November 13, 2026（2026年11月13日）. On the Designs page, finished pieces of Alby the Acorn and Bibble the Blueberry link to oddly knotted on Etsy. Alby the Acorn and Chubby Sprite are shown there as designs only. Their patterns are not listed while they are being updated.
+The sales line is dated November 13, 2026（2026年11月13日）. On the Designs page, finished pieces of Solly the Sun, Alby the Acorn and Bibble the Blueberry link to oddly knotted on Etsy. Alby the Acorn, Chubby Sprite and Bibble the Blueberry are shown there as designs only. Their patterns are not listed while they are being updated.
 
 Exhibitions, press, collaborations, and teaching say “No entries yet. まだ記載はありません。” Replace that sentence with a short list when you have something to add. One line per entry is enough.
 
@@ -61,8 +61,8 @@ To save a PDF, open the CV, choose Print, and select Save as PDF. The menu and f
 
 The Etsy links currently point to `https://www.etsy.com/shop/oddlyknotted`.
 The Solly pattern link is set to `https://www.ravelry.com/patterns/library/solly-the-sun`.
-Bibble the Blueberry is `https://www.ravelry.com/patterns/library/bibble-the-blueberry`.
-Alby the Acorn and Chubby Sprite do not have pattern links on the site yet.
+Solly's finished small size on Etsy is `https://oddlyknotted.etsy.com/listing/4330195729`.
+Alby the Acorn, Chubby Sprite and Bibble the Blueberry do not have pattern links on the site yet.
 The general designer page link is set to `https://www.ravelry.com/designers/wren-sage`.
 
 ## Color palette
